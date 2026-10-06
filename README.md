@@ -24,7 +24,7 @@ The key benefits of using MetaWalletPlus include:
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/harutosati/MetaWalletPlus.git`
+1. Clone the repository: `git clone https://github.com/centxyz/MetaWalletPlus.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the test suite: `pytest`
 
@@ -41,4 +41,4 @@ Pull requests and issue reports are both welcome. Please read the existing code 
 
 ## License
 
-Released under the MIT License — see the [LICENSE](https://github.com/harutosati/MetaWalletPlus/blob/main/LICENSE) file.
+Released under the MIT License — see the [LICENSE](https://github.com/centxyz/MetaWalletPlus/blob/main/LICENSE) file.
