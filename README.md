@@ -1,5 +1,7 @@
 # MetaWalletPlus
 
+[![CI](https://github.com/centxyz/MetaWalletPlus/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/MetaWalletPlus/actions/workflows/ci.yml)
+
 MetaWalletPlus is a client-side dashboard for injected EVM wallets. It connects through the standard EIP-1193 provider exposed by wallets such as MetaMask, displays the active network and native balance, tracks ERC-20 balances, and prepares native transfers for explicit wallet review and approval.
 
 Private keys and seed phrases never enter this application.
