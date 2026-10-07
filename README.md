@@ -1,8 +1,8 @@
-# MetaWalletPlus
+# WalletOpsConsole
 
-[![CI](https://github.com/centxyz/MetaWalletPlus/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/MetaWalletPlus/actions/workflows/ci.yml)
+[![CI](https://github.com/centxyz/WalletOpsConsole/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/WalletOpsConsole/actions/workflows/ci.yml)
 
-MetaWalletPlus is a client-side dashboard for injected EVM wallets. It connects through the standard EIP-1193 provider exposed by wallets such as MetaMask, displays the active network and native balance, tracks ERC-20 balances, and prepares native transfers for explicit wallet review and approval.
+WalletOpsConsole is a client-side dashboard for injected EVM wallets. It connects through the standard EIP-1193 provider exposed by wallets such as MetaMask, displays the active network and native balance, tracks ERC-20 balances, and prepares native transfers for explicit wallet review and approval.
 
 Private keys and seed phrases never enter this application.
 
@@ -19,8 +19,8 @@ Private keys and seed phrases never enter this application.
 ## Run locally
 
 ```bash
-git clone https://github.com/centxyz/MetaWalletPlus.git
-cd MetaWalletPlus
+git clone https://github.com/centxyz/WalletOpsConsole.git
+cd WalletOpsConsole
 npm install
 npm run dev
 ```
@@ -38,7 +38,7 @@ Tests cover transfer validation and wei conversion, token-watchlist isolation an
 
 ## Safety
 
-MetaWalletPlus does not inspect every smart-contract risk and cannot reverse transactions. Confirm the network, recipient, amount, gas, and final wallet prompt. Never paste a private key or seed phrase into this or any ordinary web application.
+WalletOpsConsole does not inspect every smart-contract risk and cannot reverse transactions. Confirm the network, recipient, amount, gas, and final wallet prompt. Never paste a private key or seed phrase into this or any ordinary web application.
 
 ## License
 
