@@ -43,3 +43,9 @@ MetaWalletPlus does not inspect every smart-contract risk and cannot reverse tra
 ## License
 
 MIT © cent
+
+## Current limitations
+
+- It supports injected EIP-1193 wallets and the configured EVM networks only.
+- Token metadata and balances depend on the connected RPC provider and untrusted token contracts.
+- The dashboard does not audit destinations or recover funds sent on the wrong network.
